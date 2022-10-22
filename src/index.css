@@ -1,8 +1,7 @@
-@tailwind components;
 @tailwind base;
+@tailwind components;
 @tailwind utilities;
 @tailwind variants;
-
 
 body {
   margin: 0;
@@ -17,4 +16,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ImageBox{
+  background-color: white;
+  height: 140.8px;
+  width: 448px;
+  padding: 24px;
+  margin: 20px;
+  border: 12px solid white;
+  position: absolute;
+  top: 150px;
+  left: 190px;
+
+
+  /* box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%); */
+}
+
+@layer base{
+  p{
+    @apply px-4
+  }
 }

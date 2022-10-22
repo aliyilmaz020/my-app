@@ -4,7 +4,7 @@ export default function TopBar() {
 
   return(
     <div className='bg-white h-[72px] w-full flex p-5 gap-4 place-items-center whitespace-nowrap '>
-      <img height={34} width={91} src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"  />
+      <img height={34} width={91} alt= '' src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"  />
       <p>Kategoriler</p>
 
       <form className='w-full'>
