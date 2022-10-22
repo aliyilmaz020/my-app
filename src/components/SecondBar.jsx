@@ -23,16 +23,20 @@ export default function SecondBar() {
 
       <div className='ImageBox'>
 
-        <h1  className=' text-base text-justify font-bold font-serif' > ALİ, sizi özledik </h1>
-        <h2 className='text-justify'>
-          <a className='' href='https://www.udemy.com/home/my-courses/learning/?locale=tr_TR'><u>Öğrenmeye devam edin</u> </a>
+        <h1  className=' text-base text-justify font-bold font-serif font-700' > ALİ, sizi özledik </h1>
+        <h2 className='text-justify '>
+          <a className='text-[#5624d0]' href='https://www.udemy.com/home/my-courses/learning/?locale=tr_TR'>
+            <u>Öğrenmeye devam edin</u> </a>
               ve hedeflerinize ulaşın. Her <br/>gün 5-10 dakika ayırmanız yeterli. </h2>
 
 
       </div>
 
 
-      {/* <img className='  ' width="1340px" height="400px" alt='' src="https://img-c.udemycdn.com/notices/featured_banner/image_udlite/542775ce-985d-4103-8f86-1bfc28afb29d.jpg"></img> */}
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@
 import './App.css'
 import TopBar from './components/TopBar'
 import SecondBar from "./components/SecondBar"
+// import ThirdBar from "./components/ThirdBar"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
         <TopBar />
         <hr/>
         <SecondBar />
+        {/* <ThirdBar/> */}
       </div>
   );
 
