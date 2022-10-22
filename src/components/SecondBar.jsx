@@ -2,7 +2,7 @@ import '../index.css'
 
 export default function SecondBar() {
   return(
-    <div className='px-16 py-0 bg-white h-[40px]  w-full   gap-3 whitespace-nowrap '>
+    <div className='px-16 py-0 bg-white h-[40px] w-full gap-3 whitespace-nowrap '>
       <ul className='flex w-full h-[40px]'>
       <p className='pl-32'>Yazılım Geliştirme</p>
       <p>İşletme</p>
@@ -23,8 +23,10 @@ export default function SecondBar() {
 
       <div className='ImageBox'>
 
-        <h1  className=' text-left font-bold font-serif' > ALİ, sizi özledik </h1>
-        <h2> Öğrenmeye devam edin ve hedeflerinize ulaşın. Her gün 5-10 dakika ayırmanız yeterli. </h2>
+        <h1  className=' text-base text-justify font-bold font-serif' > ALİ, sizi özledik </h1>
+        <h2 className='text-justify'>
+          <a className='' href='https://www.udemy.com/home/my-courses/learning/?locale=tr_TR'><u>Öğrenmeye devam edin</u> </a>
+              ve hedeflerinize ulaşın. Her <br/>gün 5-10 dakika ayırmanız yeterli. </h2>
 
 
       </div>
