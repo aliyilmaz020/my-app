@@ -2,7 +2,8 @@
 import './App.css'
 import TopBar from './components/TopBar'
 import SecondBar from "./components/SecondBar"
-// import ThirdBar from "./components/ThirdBar"
+import ThirdBar from "./components/ThirdBar"
+import React from "react"
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
         <TopBar />
         <hr/>
         <SecondBar />
-        {/* <ThirdBar/> */}
+
+        <ThirdBar/>
       </div>
   );
 
