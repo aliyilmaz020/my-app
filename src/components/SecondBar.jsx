@@ -1,5 +1,6 @@
 import '../index.css'
 import Carousel from 'better-react-carousel'
+import Card12 from './Card12'
 
 export default function SecondBar() {
   return (
@@ -42,7 +43,39 @@ export default function SecondBar() {
 
       <div className='p-6'>
 
-        <Carousel cols={3} rows={1} gap={5} autoplay={5000} loop >
+        <Carousel cols={3} rows={1} gap={5} loop >
+          <Carousel.Item>
+            <Card12 image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgs54Q-jQVqoJvCnKquQZHbaXMwWNxgKj5Ua4vCNqCXqRnbth0l2Z8AzNAewMWTygABkQ&usqp=CAU2'}
+              title={"C# İle 25 Derste 25 Uygulamalı Proje"}
+              subtitle={"1. Course welcome and instructor introductions"} />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card12 image={'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailysabah.com%2Fsports%2Ffootball%2Fnetflix-documentary-on-fatih-terim-to-hit-screens-on-sept-15&psig=AOvVaw3Ia4Jm2zd0I73I46-_1Y-I&ust=1667232580284000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCOj798WriPsCFQAAAAAdAAAAABAD'}
+              title={'FT > JJ'}
+            />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card12 />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card12 />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card12 />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card12 />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card12 />
+          </Carousel.Item>
+
           <Carousel.Item>
             <img width={267} height={150} alt="" src="https://mp4-c.udemycdn.com/2021-02-26_18-16-55-2077f2b420d6cee78846732b169579de/1/thumb-1.jpg?Expires=1667152106&Signature=k3AtTjTfptWlLL8CqPqpgIkrBhq2l9r7FoCVteXqA-xL1Ho~60bnzT690KjqdjgAgJtcFKZHRG~5vSaa2bLUG78I8xF3F~X0bjBNUVpmoidbLpMVK3mVNLNnSae5HcazmEsCicK-lKCYcv6Ze5o4klXNSSr3QA1G~FteZgFg5mU8jGS8Zyza54EvnDsI0ohHJOyMb0YSphscCbHMeSZX6wJyGRawGlZSlbuAMBdPpOOxf0vSsNYNzBXNuR3~sSURAZreCUxmDn8HTlvPSDABKBWNmww3reLf8qLOxg1JY02myAmfcO9K06sd8GV4YqYqJaFFIc13Lw0yoMMnZ5LzkA__&Key-Pair-Id=APKAITJV77WS5ZT7262A" />
           </Carousel.Item>
@@ -74,7 +107,7 @@ export default function SecondBar() {
 
 
 
-    </div>
+    </div >
 
   )
 }
