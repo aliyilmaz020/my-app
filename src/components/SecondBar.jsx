@@ -1,4 +1,5 @@
 import '../index.css'
+import Carousel from 'better-react-carousel'
 
 export default function SecondBar() {
   return (
@@ -33,12 +34,34 @@ export default function SecondBar() {
 
 
       <div className='flex justify-between	'>
-        <h1 className='font-bold justify-between	 '><br />ALİ, öğrenmeye başlayalım</h1>
+        <h1 className='font-bold 	 '><br />ALİ, öğrenmeye başlayalım</h1>
         <h2 className='font-bold underline text-[#5624d0]'><a href="https://www.udemy.com/home/my-courses/"><br />Öğrenim İçeriğim</a></h2>
         {/*  */}
 
       </div>
 
+      <div className='p-6'>
+
+        <Carousel cols={3} rows={1} gap={5} autoplay={5000} loop >
+          <Carousel.Item>
+            <img width={267} height={150} alt="" src="https://mp4-c.udemycdn.com/2021-02-26_18-16-55-2077f2b420d6cee78846732b169579de/1/thumb-1.jpg?Expires=1667152106&Signature=k3AtTjTfptWlLL8CqPqpgIkrBhq2l9r7FoCVteXqA-xL1Ho~60bnzT690KjqdjgAgJtcFKZHRG~5vSaa2bLUG78I8xF3F~X0bjBNUVpmoidbLpMVK3mVNLNnSae5HcazmEsCicK-lKCYcv6Ze5o4klXNSSr3QA1G~FteZgFg5mU8jGS8Zyza54EvnDsI0ohHJOyMb0YSphscCbHMeSZX6wJyGRawGlZSlbuAMBdPpOOxf0vSsNYNzBXNuR3~sSURAZreCUxmDn8HTlvPSDABKBWNmww3reLf8qLOxg1JY02myAmfcO9K06sd8GV4YqYqJaFFIc13Lw0yoMMnZ5LzkA__&Key-Pair-Id=APKAITJV77WS5ZT7262A" />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img width={267} height={150} alt="" src="https://mp4-c.udemycdn.com/2021-01-14_19-23-34-3fbffaebf30727c8b1d7061a19ee25ae/1/thumb-1.jpg?Expires=1667152106&Signature=Ik45KmsjRj1KAE38B7BlclrWtJdtey7jdNYNeSm1ZYeBCIo1IrZdwsPRnZh6yODYjWcYNtHmMq0dVGFiHOIjbuPgVVTr7~ytKq42a-GUHlKWpDDN90-h0kxnYKX0gJLgJVkbV4b~yajbbK4iehsWVFD-CHF0XoopsE~mu0EogqsHVi9ucNxgaJ4g3Vsm~7AXI3aPlKLwwpYMc5oxhG44QLBebsKhBDA~462qxeaKwlNZua6ndoKNasAj9wpTZCFOiXL5wwdC9Dyh6b8M98-7cMv1cwp9q3LvcVSMcHm7bSN5wuKJmAVKZCI4Oxj7ql3wMVswCt6-~dtJLM7liCfzuA__&Key-Pair-Id=APKAITJV77WS5ZT7262A" />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img width={267} height={150} alt="" src="https://mp4-c.udemycdn.com/2021-06-23_06-13-51-ac4242803c4b041920902e04610b9de9/1/thumb-1.jpg?Expires=1667152106&Signature=dRW0cEIF4DNCO-ORGvSHAn1OUyqFOSONmjIfevTnQLKndJyGZ7WD2aQTXlHugs-04dGmKE7oOg9Gorfv4lm77dB9F03ZXwf80XwpAZvMoFOygN2vJSEWRuE3SFKbE14b~j36KSc1Y8oFXh5HlgkOA2dekiFqy7CEKG5549tePubUyzrDLUXkf-ZwBPEPudM9j0YL4cZQ-MTMXQ-tRgq-oK4BmpmT8rMhrX8p8BAr6wdNqsB8mdtVmEmxxjlpfxvjy4An6LUkW8sn2jkABB9R0EZG-SFGElNUvjDCCLNAPVPzQDVC7shtThVaGNbAsuCcGWR26zXbVZUbJdhgdak65g__&Key-Pair-Id=APKAITJV77WS5ZT7262A" />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img width={267} height={150} alt="" src="https://mp4-c.udemycdn.com/2019-03-08_20-10-25-69fe34a21bfe558ef15eb7dc5b53d130/thumb-1.jpg?Expires=1667152107&Signature=l11m~iy~cu7YTye7v-NTdeCklt7gBfPIdtOunu9MtNxWpKsr83J6jet8-27BMTBcTJXi1ObTdGr97xRYozklGXb2qBgVQ7-bOmO0i0jcIgJsFIntXhRYuGySxwQ~8iG4dtCFh4wO4tw16R7vG2u~jKWN7mYsHJxaYbT0ZBZWPwhUqGyFoN3dfcfzMAvoLxWkxgBaTs-UwMfgbMf1SVa6L5B4TK6bHJPDwMH-Y-nhpNScz-27uBxtdFZ0wEOh-39Y1dyXmYKtAygGudrHYgsXH8du2XQZPPqmmgomKjgNz35jb8lE9usYVezYxi~O~2iQglj8ZDUVLuBDj2r0v9NZeA__&Key-Pair-Id=APKAITJV77WS5ZT7262A" />
+          </Carousel.Item>
+
+        </Carousel>
+
+      </div>
 
 
 
